@@ -1,6 +1,6 @@
 corr<- function(directory, threshold = 0) {
      ## obtaining the required files by storing them into mydata variable
-     mydata <- list.files(path = "/Users/atawua/Desktop/specdata")
+     mydata <- list.files(path = ""C:\Users\SONAL\Desktop\rprog_data_specdata\specdata"")
      
      ## creating an empty numeric vector which will hold the final result
      result <- vector(mode = "numeric", length = 0) 
