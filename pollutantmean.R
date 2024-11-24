@@ -1,6 +1,6 @@
 pollutantmean <- function(directory, pollutant, id = 1:332) {
      ## obtaining the required files by storing them into mydata variable
-     mydata <- list.files(path = "/Users/atawua/Desktop/specdata")[id]
+     mydata <- list.files(path = ""C:\Users\SONAL\Desktop\rprog_data_specdata\specdata"")[id]
      
      ## reading the .csv files of mydata
      readfiles <- lapply(mydata, read.csv)
